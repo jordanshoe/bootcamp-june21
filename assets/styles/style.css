@@ -1,0 +1,190 @@
+/* reset declaration */
+*{
+    box-sizing: border-box;
+    margin: 0;
+  
+}
+
+/* *{
+    color: yellow;
+} */
+/* div h2,#para1,ul{
+    background-color: maroon;
+} */
+/* 
+text(typography) properties:
+
+    font-family
+    text-align
+    font-size = 16px = 100% = 1em
+    line-height
+    letter-spacing
+    word-spacing
+    text-transform
+    text-decoration
+    font-weight
+    text-shadow
+            syntax:
+        text-shadow:x y z color
+    :hover
+        syntax:
+            selector:hover
+    
+
+
+*/
+
+/*  css boxmodel
+
+        border
+            syntax:
+                border:width style color;
+        
+        width = block elements display 100%. 
+        height = all elements auto increase
+                inline elements do not support width and height except img element,input,textarea,select.
+
+        margin-bottom and margin-top = text inline elements do not support
+
+        diplay properties = convert
+            values:
+                inline = tells the block elements to display inline.
+
+                block = tells the inline elements to display block.
+
+                inline-block(hybrid) = tells the block elements and inline elements to display inline but get the behavior of the block elements
+
+*/
+.heading-box{
+    border: 3px solid black;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 4px 4px 3px yellow;
+    border: 4px solid red;
+    padding: 20px;
+    margin: 30px 0;
+    width: 20%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+h1:hover{
+    color: teal;
+    text-decoration: overline;
+}
+h2{
+    font-family: serif;
+    text-align: right;
+    text-decoration: overline;
+    border: 4px dashed green;
+    padding: 20px 10px;
+    width: 400px;
+    margin: 0 auto 10px auto;
+}
+h3{
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: line-through;
+    border-top:4px solid yellow;
+    border-right: 5px dotted blue;
+    border-bottom: 8px double red;
+    border-left: 7px groove green;
+    padding-left: 40px;
+}
+.heading-box p{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 3;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.heading-box p span{
+    /* font-size: 32px; */
+    text-transform: lowercase;
+    text-decoration: line-through;
+    font-weight: 900;
+}
+.heading-box p span:hover{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.heading-box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: 2px solid red;
+    /* padding: 10px 0 20px 15px; */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.box1{
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+   
+}
+.box2{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.hobby{
+    background-color: mediumspringgreen;
+}
+.hobby ol{
+    list-style:upper-roman;
+}
+.hobby ul{
+    list-style: square;
+
+}
+.hobby ul li{
+    background-color: olive;
+    list-style-position: inside;
+    border: 2px dashed white;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+    
+}
+.skill{
+    background-color: mediumvioletred;
+}
+.skill ul{
+    list-style: upper-latin;
+}
+.skill ol{
+    list-style: lower-roman;
+    background-color: mediumturquoise;
+    list-style-position: inside;
+}
+img{
+    box-shadow: 3px 3px 3px red;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin: auto;
+    display: block;
+}
+a{
+    border: 2px dashed red;
+    display: block;
+}
